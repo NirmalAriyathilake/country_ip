@@ -44,7 +44,7 @@ Example :
 ```dart
 final countryIpResponse = await CountryIp.find();
 
-print("countryIpResponse : ${countryIpResponse}");
+print("countryIpResponse : $countryIpResponse");
 // countryIpResponse : CountryResponse(country: United States, countryCode: US, ip: 9.9.9.9)
 print("User's country code : ${countryIpResponse?.countryCode}");
 // User's country code : US
@@ -73,7 +73,7 @@ Examples :
 ```dart
 final countryIpResponse = await CountryIp.findFromIP('9.9.9.9');
 
-print("countryIpResponse : ${countryIpResponse}");
+print("countryIpResponse : $countryIpResponse");
 // countryIpResponse : CountryResponse(country: United States, countryCode: US, ip: 9.9.9.9)
 print("User's country code : ${countryIpResponse?.countryCode}");
 // User's country code : US
@@ -88,7 +88,7 @@ print("User's ip : ${countryIpResponse?.ip}");
 ```dart
 final countryIpResponse = await CountryIp.findFromIP('::ffff:909:909');
 
-print("countryIpResponse : ${countryIpResponse}");
+print("countryIpResponse : $countryIpResponse");
 // countryIpResponse : CountryResponse(country: United States, countryCode: US, ip: ::ffff:909:909)
 print("User's country code : ${countryIpResponse?.countryCode}");
 // User's country code : US
