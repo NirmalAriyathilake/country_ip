@@ -1,6 +1,5 @@
-import 'package:flutter_test/flutter_test.dart';
-
 import 'package:country_ip/country_ip.dart';
+import 'package:test/test.dart';
 
 void main() {
   test(
@@ -16,7 +15,7 @@ void main() {
       expect(countryIpResponse?.ip, isNotEmpty);
     },
   );
-  
+
   test(
     'Get country from specific IP : IPv4',
     () async {

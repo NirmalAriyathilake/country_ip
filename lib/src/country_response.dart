@@ -1,5 +1,6 @@
 part 'country_name_iso_3166_alpha_2.dart';
 
+/// Response model for country API
 class CountryResponse {
   CountryResponse({
     required this.countryCode,
