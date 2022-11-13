@@ -1,6 +1,6 @@
 name: country_ip
-description: A new Flutter package project.
-version: 0.0.1
+description: Package to find users' country from their IP
+version: 1.0.0
 homepage: https://github.com/NirmalAriyathilake/country_ip
 
 environment:
