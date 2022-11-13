@@ -1,20 +1,16 @@
 name: country_ip
-description: Package to find users' country from their IP
-version: 1.0.0
+description: > 
+  Package to find users' country from their IP. 
+  Dart package based on country API.
+version: 2.0.0
 homepage: https://github.com/NirmalAriyathilake/country_ip
 
 environment:
   sdk: ">=2.18.4 <3.0.0"
-  flutter: ">=1.17.0"
 
 dependencies:
-  flutter:
-    sdk: flutter
   http: ^0.13.5
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^2.0.0
-
-flutter:
+  lints: ^2.0.0
+  test: ^1.16.0
