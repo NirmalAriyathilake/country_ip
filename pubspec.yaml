@@ -1,7 +1,7 @@
 name: country_ip
 description: A new Flutter package project.
 version: 0.0.1
-# homepage:
+homepage: https://github.com/NirmalAriyathilake/country_ip
 
 environment:
   sdk: ">=2.18.4 <3.0.0"
@@ -10,6 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  http: ^0.13.5
 
 dev_dependencies:
   flutter_test:
