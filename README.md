@@ -1,3 +1,6 @@
+[![pub package](https://img.shields.io/pub/v/country_ip?color=orange)](https://pub.dartlang.org/packages/country_ip)
+[![BSD-3-Clause License](https://img.shields.io/github/license/NirmalAriyathilake/country_ip)](https://github.com/NirmalAriyathilake/country_ip/blob/main/LICENSE)
+
 With `country_ip` you can find users' country (and nothing else) from their IP address.
 
 This package is based on [country.is](https://country.is/). No API_KEY or AUTHORIZATION needed. Free to use API.
