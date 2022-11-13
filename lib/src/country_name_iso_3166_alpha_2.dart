@@ -1,5 +1,6 @@
 part of 'country_response.dart';
 
+/// ISO 3166 ALPHA-2 country codes with full name
 final _countryCodes = Map<String, String>.from({
   "AF": "Afghanistan",
   "AX": "Aland Islands",
