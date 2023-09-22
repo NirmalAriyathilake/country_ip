@@ -2,15 +2,15 @@ name: country_ip
 description: > 
   Package to find users' country from their IP. 
   Dart package based on country API.
-version: 2.0.1
+version: 3.0.0
 homepage: https://github.com/NirmalAriyathilake/country_ip
 
 environment:
-  sdk: ">=2.18.4 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
-  http: ^0.13.5
+  http: ^1.1.0
 
 dev_dependencies:
-  lints: ^2.0.0
-  test: ^1.16.0
+  lints: ^2.1.1
+  test: ^1.24.6

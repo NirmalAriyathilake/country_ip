@@ -27,7 +27,7 @@ void main() async {
   // User's ip : 9.9.9.9
 
   // IPv6
-  final countryIpResponse3 = await CountryIp.findFromIP('9.9.9.9');
+  final countryIpResponse3 = await CountryIp.findFromIP('::ffff:909:909');
 
   print("countryIpResponse : $countryIpResponse3");
   // countryIpResponse : CountryResponse(country: United States, countryCode: US, ip: ::ffff:909:909)
